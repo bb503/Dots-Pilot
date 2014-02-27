@@ -1,0 +1,97 @@
+body {
+margin:20px;
+padding:0;
+}
+
+#page-container {
+width:1200px;
+margin:auto;
+}
+
+#experimentIntro h2 {
+position:center;
+}
+
+#pilotInstructions li {
+text-align:left;
+}
+
+#next {
+float:none;
+display:block;
+width:100px;
+margin:10px auto;
+}
+
+#trainingInstructions {
+text-align:center;
+font-size:18px;
+margin-top:30px;
+}
+
+#imageSpace {
+width:600px;
+height:600px;
+margin:70px 0 0;
+}
+
+.dot {
+position:absolute;
+width:2px;
+height:2px;
+border-radius:50%;
+background:#000;
+border:1px solid #000;
+}
+
+#estimate {
+text-align:center;
+display:none;
+position:absolute;
+right:270px;
+top:150px;
+}
+
+#slider {
+width:400px;
+position:absolute;
+right:380px;
+top:350px;
+}
+
+#slider-info {
+width:400px;
+position:absolute;
+right:193px;
+top:370px;
+}
+
+#doneTxt {
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.text {
+width:700px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+#feedback {
+text-align:center;
+margin:auto;
+}
+
+#experimentIntro p,#pilotInstructions p {
+margin-bottom:20px;
+text-align:left;
+}
+
+#next2,#getFeedback,#tryAgain {
+display:block;
+width:100px;
+position:absolute;
+right:530px;
+top:650px;
+}
